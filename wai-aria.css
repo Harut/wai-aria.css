@@ -1,0 +1,73 @@
+.special-debug {
+  background: #fff !important; }
+  .special-debug * {
+    position: static !important;
+    width: auto !important;
+    max-width: initial !important;
+    height: auto !important;
+    float: none !important;
+    background: none !important;
+    color: #444 !important;
+    padding: 0 !important;
+    transform: none !important;
+    border: 0 !important;
+    opacity: 1 !important; }
+  .special-debug textarea, .special-debug input, .special-debug select, .special-debug button {
+    border: 1px solid #aaa !important;
+    padding: 5px !important; }
+    .special-debug textarea:focus, .special-debug input:focus, .special-debug select:focus, .special-debug button:focus {
+      border-color: #28DCB4 !important; }
+  .special-debug textarea, .special-debug input[type='text'], .special-debug input[type='password'], .special-debug input[type='email'], .special-debug select {
+    width: 100% !important; }
+  .special-debug a[href] {
+    color: #239 !important;
+    margin-right: 5px !important; }
+    .special-debug a[href] * {
+      color: #239 !important; }
+    .special-debug a[href]:hover, .special-debug a[href]:focus {
+      text-decoration: underline; }
+    .special-debug a[href]:focus {
+      outline: 1px solid #aaa; }
+  .special-debug a[title]:before {
+    content: attr(title) !important;
+    color: #aaa !important; }
+  .special-debug [role=region],
+  .special-debug [role=contentinfo],
+  .special-debug [role=navigation],
+  .special-debug [role=complementary],
+  .special-debug [role=list],
+  .special-debug [role=main] {
+    outline: 1px solid #600 !important;
+    padding-top: 5px !important;
+    margin: 10px !important; }
+    .special-debug [role=region]:before,
+    .special-debug [role=contentinfo]:before,
+    .special-debug [role=navigation]:before,
+    .special-debug [role=complementary]:before,
+    .special-debug [role=list]:before,
+    .special-debug [role=main]:before {
+      content: attr(aria-label) !important;
+      line-height: 100%;
+      overflow: visible;
+      display: block !important;
+      color: #800;
+      clear: both; }
+  .special-debug [role=main]:before {
+    content: "<MAIN>" !important; }
+  .special-debug [role=list]:before {
+    content: "<LIST>" !important; }
+  .special-debug [role=navigation]:before {
+    position: absolute;
+    color: #f99; }
+  .special-debug [aria-hidden=true] {
+    display: none !important; }
+  .special-debug .special-hidden {
+    color: #600;
+    left: 0; }
+
+.toggle-special-debug {
+  position: fixed !important;
+  top: 10px;
+  right: 10px;
+  z-index: 10000;
+  background: #fff !important; }

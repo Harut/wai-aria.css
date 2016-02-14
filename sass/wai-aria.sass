@@ -1,0 +1,79 @@
+.special-debug
+    background: #fff !important
+    *
+        position: static !important
+        width: auto !important
+        max-width: initial !important
+        height: auto !important
+        float: none !important
+        background: none !important
+        color: #444 !important
+        padding: 0 !important
+        transform: none !important
+        border: 0 !important
+        opacity: 1 !important
+
+    textarea, input, select, button
+        border: 1px solid #aaa !important
+        padding: 5px !important
+        &:focus
+            border-color: #28DCB4 !important
+
+    textarea, input[type='text'], input[type='password'], input[type='email'], select
+        width: 100% !important
+
+    a[href]
+        color: #239 !important
+        margin-right: 5px !important
+        *
+            color: #239 !important
+        &:hover, &:focus
+            text-decoration: underline
+        &:focus
+            outline: 1px solid #aaa
+
+    a[title]
+        &:before
+            content: attr(title) !important
+            color: #aaa !important
+
+    [role=region],
+    [role=contentinfo],
+    [role=navigation],
+    [role=complementary],
+    [role=list],
+    [role=main]
+        outline: 1px solid #600 !important
+        padding-top: 5px !important
+        margin: 10px !important
+
+        &:before
+            content: attr(aria-label) !important
+            line-height: 100%
+            overflow: visible
+            display: block !important
+            color: #800
+            clear: both
+
+    [role=main]:before
+        content: "<MAIN>" !important
+
+    [role=list]:before
+        content: "<LIST>" !important
+
+    [role=navigation]:before
+        position: absolute
+        color: #f99
+    [aria-hidden=true]
+        display: none !important
+    .special-hidden
+        color: #600
+        left: 0
+
+.toggle-special-debug
+    position: fixed !important
+    top: 10px
+    right: 10px
+    z-index: 10000
+    background: #fff !important
+
