@@ -67,7 +67,7 @@
       text-decoration: underline; }
     .special-debug a[href]:focus {
       outline: 1px solid #aaa; }
-  .special-debug a[title]:before {
+  .special-debug a[title]:before, .special-debug button[title]:before {
     content: attr(title) !important;
     color: #aaa !important; }
   .special-debug [role=region],
