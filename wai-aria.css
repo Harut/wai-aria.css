@@ -29,9 +29,9 @@
     .special-debug h1 *, .special-debug h2 *, .special-debug h3 *, .special-debug h4 *, .special-debug h5 *, .special-debug h6 * {
       font-size: inherit !important; }
   .special-debug h1 {
-    font-size: 18px !important; }
+    font-size: 22px !important; }
   .special-debug h2 {
-    font-size: 16px !important; }
+    font-size: 18px !important; }
     .special-debug h2:after {
       content: "h2"; }
   .special-debug h3 {
