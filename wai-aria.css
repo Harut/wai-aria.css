@@ -26,6 +26,8 @@
       line-height: 1;
       padding: 4px;
       font-size: 10px; }
+    .special-debug h1 *, .special-debug h2 *, .special-debug h3 *, .special-debug h4 *, .special-debug h5 *, .special-debug h6 * {
+      font-size: inherit !important; }
   .special-debug h1 {
     font-size: 18px !important; }
   .special-debug h2 {
