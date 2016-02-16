@@ -19,11 +19,13 @@
       content: "h1";
       position: absolute;
       left: -21px;
+      top: 0;
       background: #fff;
       border: 1px solid #ddd;
       border-radius: 10px;
       line-height: 1;
-      padding: 5px; }
+      padding: 4px;
+      font-size: 10px; }
   .special-debug h1 {
     font-size: 18px !important; }
   .special-debug h2 {
