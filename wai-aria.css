@@ -12,7 +12,8 @@
     transform: none !important;
     border: 0 !important;
     opacity: 1 !important;
-    font-size: 12px !important; }
+    font-size: 12px !important;
+    box-shadow: none !important; }
   .special-debug h1, .special-debug h2, .special-debug h3, .special-debug h4, .special-debug h5, .special-debug h6 {
     position: relative !important;
     padding-left: 22px !important; }
@@ -50,10 +51,10 @@
     content: "h6"; }
   .special-debug img {
     max-width: 100px !important; }
-  .special-debug textarea, .special-debug input, .special-debug select, .special-debug button {
+  .special-debug textarea, .special-debug input, .special-debug select, .special-debug button, .special-debug a[role=button] {
     border: 1px solid #aaa !important;
     padding: 5px !important; }
-    .special-debug textarea:focus, .special-debug input:focus, .special-debug select:focus, .special-debug button:focus {
+    .special-debug textarea:focus, .special-debug input:focus, .special-debug select:focus, .special-debug button:focus, .special-debug a[role=button]:focus {
       border-color: #28DCB4 !important; }
   .special-debug textarea, .special-debug input[type='text'], .special-debug input[type='password'], .special-debug input[type='email'], .special-debug select {
     width: 100% !important; }
