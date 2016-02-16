@@ -15,7 +15,8 @@
     opacity: 1 !important;
     font-size: 12px !important;
     box-shadow: none !important;
-    text-shadow: none !important; }
+    text-shadow: none !important;
+    border-radius: 0 !important; }
   .special-debug h1, .special-debug h2, .special-debug h3, .special-debug h4, .special-debug h5, .special-debug h6 {
     position: relative !important;
     padding-left: 22px !important; }
