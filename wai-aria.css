@@ -11,7 +11,40 @@
     padding: 0 !important;
     transform: none !important;
     border: 0 !important;
-    opacity: 1 !important; }
+    opacity: 1 !important;
+    font-size: 12px !important; }
+  .special-debug h1, .special-debug h2, .special-debug h3, .special-debug h4, .special-debug h5, .special-debug h6 {
+    position: relative !important; }
+    .special-debug h1:after, .special-debug h2:after, .special-debug h3:after, .special-debug h4:after, .special-debug h5:after, .special-debug h6:after {
+      content: "h1";
+      position: absolute;
+      left: -21px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      line-height: 1;
+      padding: 5px; }
+  .special-debug h1 {
+    font-size: 18px !important; }
+  .special-debug h2 {
+    font-size: 16px !important; }
+    .special-debug h2:after {
+      content: "h2"; }
+  .special-debug h3 {
+    font-size: 14px !important; }
+    .special-debug h3:after {
+      content: "h3"; }
+  .special-debug h4, .special-debug h5, .special-debug h6 {
+    font-size: 14px !important;
+    opacity: 0.8 !important; }
+    .special-debug h4:after, .special-debug h5:after, .special-debug h6:after {
+      content: "h4"; }
+  .special-debug h5:after {
+    content: "h5"; }
+  .special-debug h6:after {
+    content: "h6"; }
+  .special-debug img {
+    max-width: 100px !important; }
   .special-debug textarea, .special-debug input, .special-debug select, .special-debug button {
     border: 1px solid #aaa !important;
     padding: 5px !important; }

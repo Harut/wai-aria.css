@@ -12,6 +12,44 @@
         transform: none !important
         border: 0 !important
         opacity: 1 !important
+        font-size: 12px !important
+
+    h1, h2, h3, h4, h5, h6
+        position: relative !important
+        &:after
+            content: 'h1'
+            position: absolute
+            left: -21px
+            background: #fff
+            border: 1px solid #ddd
+            border-radius: 10px
+            line-height: 1
+            padding: 5px
+
+    h1
+        font-size: 18px !important
+    h2
+        font-size: 16px !important
+        &:after
+            content: 'h2'
+    h3
+        font-size: 14px !important
+        &:after
+            content: 'h3'
+    h4, h5, h6
+        font-size: 14px !important
+        opacity: 0.8 !important
+        &:after
+            content: 'h4'
+    h5
+        &:after
+            content: 'h5'
+    h6
+        &:after
+            content: 'h6'
+
+    img
+        max-width: 100px !important
 
     textarea, input, select, button
         border: 1px solid #aaa !important
