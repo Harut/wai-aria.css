@@ -2,11 +2,14 @@
   background: #fff !important;
   overflow: scroll !important; }
   .special-debug [role=row] {
-    display: table-row; }
+    display: table-row;
+    border-collapse: collapse; }
   .special-debug [role=gridcell] {
     display: table-cell; }
   .special-debug [role=grid] {
-    display: table; }
+    display: table;
+    padding: 2px !important;
+    border: 1px solid #ddd; }
   .special-debug * {
     position: static !important;
     width: auto !important;
