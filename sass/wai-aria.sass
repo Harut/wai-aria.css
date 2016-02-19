@@ -1,6 +1,14 @@
 .special-debug
     background: #fff !important
     overflow: scroll !important
+
+    [role=row]
+        display: table-row
+    [role=gridcell]
+        display: table-cell
+    [role=grid]
+        display: table
+
     *
         position: static !important
         width: auto !important
@@ -17,6 +25,7 @@
         box-shadow: none !important
         text-shadow: none !important
         border-radius: 0 !important
+        margin: 0 !important
 
     h1, h2, h3, h4, h5, h6
         position: relative !important
