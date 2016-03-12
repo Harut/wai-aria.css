@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .special-debug {
   background: #fff !important;
   overflow: scroll !important; }
@@ -46,7 +45,7 @@
     .special-debug h1 *, .special-debug h2 *, .special-debug h3 *, .special-debug h4 *, .special-debug h5 *, .special-debug h6 * {
       font-size: inherit !important; }
   .special-debug ul > li {
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJL…gAACx+AzjOoJbuJrghIKF2pjy4AIKqmNmNPQbUvTJGFhv2XaCBE7jBI7dAAAAAElFTkSuQmCC") no-repeat 0 5px !important;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AMMEAALXBIOsgAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAuSURBVAjXXcu5CQAgAACx+AzjOoJbuJrghIKF2pjy4AIKqmNmNPQbUvTJGFhv2XaCBE7jBI7dAAAAAElFTkSuQmCC") no-repeat 0 5px !important;
     padding-left: 7px !important; }
   .special-debug h1 {
     font-size: 22px !important; }
