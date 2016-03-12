@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .special-debug {
   background: #fff !important;
   overflow: scroll !important; }
@@ -14,6 +15,7 @@
     position: static !important;
     width: auto !important;
     max-width: initial !important;
+    max-height: initial !important;
     height: auto !important;
     float: none !important;
     background: none !important;
@@ -43,6 +45,9 @@
       font-size: 10px; }
     .special-debug h1 *, .special-debug h2 *, .special-debug h3 *, .special-debug h4 *, .special-debug h5 *, .special-debug h6 * {
       font-size: inherit !important; }
+  .special-debug ul > li {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJL…gAACx+AzjOoJbuJrghIKF2pjy4AIKqmNmNPQbUvTJGFhv2XaCBE7jBI7dAAAAAElFTkSuQmCC") no-repeat 0 5px !important;
+    padding-left: 7px !important; }
   .special-debug h1 {
     font-size: 22px !important; }
   .special-debug h2 {
@@ -80,9 +85,12 @@
       text-decoration: underline; }
     .special-debug a[href]:focus {
       outline: 1px solid #aaa; }
-  .special-debug a[title]:before, .special-debug button[title]:before {
+  .special-debug a[title]:before, .special-debug button[title]:before, .special-debug *[role=button][title]:before, .special-debug *[tabindex="0"][title]:before {
     content: attr(title) !important;
     color: #aaa !important; }
+  .special-debug a[aria-label]:before, .special-debug button[aria-label]:before, .special-debug *[role=button][aria-label]:before, .special-debug *[tabindex="0"][aria-label]:before {
+    content: attr(aria-label) !important;
+    color: #aad !important; }
   .special-debug [role=region],
   .special-debug [role=contentinfo],
   .special-debug [role=navigation],

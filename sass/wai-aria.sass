@@ -16,6 +16,7 @@
         position: static !important
         width: auto !important
         max-width: initial !important
+        max-height: initial !important
         height: auto !important
         float: none !important
         background: none !important
@@ -46,6 +47,10 @@
             font-size: 10px
         *
             font-size: inherit !important
+
+    ul>li
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJL…gAACx+AzjOoJbuJrghIKF2pjy4AIKqmNmNPQbUvTJGFhv2XaCBE7jBI7dAAAAAElFTkSuQmCC') no-repeat 0 5px !important
+        padding-left: 7px !important
 
     h1
         font-size: 22px !important
@@ -91,10 +96,14 @@
         &:focus
             outline: 1px solid #aaa
 
-    a[title], button[title]
-        &:before
+    a, button, *[role=button], *[tabindex="0"] 
+        &[title]:before
             content: attr(title) !important
             color: #aaa !important
+
+        &[aria-label]:before
+            content: attr(aria-label) !important
+            color: #aad !important
 
     [role=region],
     [role=contentinfo],
