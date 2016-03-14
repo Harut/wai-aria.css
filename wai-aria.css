@@ -15,6 +15,8 @@
     width: auto !important;
     max-width: initial !important;
     max-height: initial !important;
+    min-width: initial !important;
+    min-height: initial !important;
     height: auto !important;
     float: none !important;
     background: none !important;
