@@ -30,12 +30,14 @@
     margin: 0 !important;
     text-indent: 0 !important;
     text-align: left !important; }
+  .special-debug *:before, .special-debug *:after {
+    position: static !important; }
   .special-debug h1, .special-debug h2, .special-debug h3, .special-debug h4, .special-debug h5, .special-debug h6 {
     position: relative !important;
     padding-left: 22px !important; }
     .special-debug h1:after, .special-debug h2:after, .special-debug h3:after, .special-debug h4:after, .special-debug h5:after, .special-debug h6:after {
       content: "h1";
-      position: absolute;
+      position: absolute !important;
       left: 0;
       top: 0;
       background: #fff;
@@ -118,7 +120,7 @@
   .special-debug [role=list]:before {
     content: "<LIST>" !important; }
   .special-debug [role=navigation]:before {
-    position: absolute;
+    position: absolute !important;
     color: #f99; }
   .special-debug [aria-hidden=true] {
     display: none !important; }
