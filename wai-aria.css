@@ -52,9 +52,6 @@
       font-size: 10px; }
     .special-debug h1 *, .special-debug h2 *, .special-debug h3 *, .special-debug h4 *, .special-debug h5 *, .special-debug h6 * {
       font-size: inherit !important; }
-  .special-debug ul > li {
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AMMEAALXBIOsgAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAuSURBVAjXXcu5CQAgAACx+AzjOoJbuJrghIKF2pjy4AIKqmNmNPQbUvTJGFhv2XaCBE7jBI7dAAAAAElFTkSuQmCC") no-repeat 0 5px !important;
-    padding-left: 7px !important; }
   .special-debug h1 {
     font-size: 22px !important; }
   .special-debug h2 {
@@ -74,6 +71,13 @@
     content: "h5"; }
   .special-debug h6:after {
     content: "h6"; }
+  .special-debug td, .special-debug *[role=gridcell] {
+    border: 1px solid #aaa !important; }
+  .special-debug ul > li {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AMMEAALXBIOsgAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAuSURBVAjXXcu5CQAgAACx+AzjOoJbuJrghIKF2pjy4AIKqmNmNPQbUvTJGFhv2XaCBE7jBI7dAAAAAElFTkSuQmCC") no-repeat 0 5px !important;
+    padding-left: 7px !important; }
+  .special-debug b, .special-debug i {
+    color: #700 !important; }
   .special-debug img {
     max-width: 100px !important; }
   .special-debug textarea, .special-debug input, .special-debug select, .special-debug button, .special-debug a[role=button] {
