@@ -104,6 +104,9 @@
   .special-debug a[aria-label]:before, .special-debug button[aria-label]:before, .special-debug *[role=button][aria-label]:before, .special-debug *[tabindex="0"][aria-label]:before {
     content: attr(aria-label) !important;
     color: #aad !important; }
+  .special-debug footer,
+  .special-debug header,
+  .special-debug nav,
   .special-debug [role=region],
   .special-debug [role=contentinfo],
   .special-debug [role=navigation],
@@ -113,6 +116,9 @@
     outline: 1px solid #600 !important;
     padding-top: 5px !important;
     margin: 10px !important; }
+    .special-debug footer:before,
+    .special-debug header:before,
+    .special-debug nav:before,
     .special-debug [role=region]:before,
     .special-debug [role=contentinfo]:before,
     .special-debug [role=navigation]:before,
@@ -129,6 +135,7 @@
     content: "<MAIN>" !important; }
   .special-debug [role=list]:before {
     content: "<LIST>" !important; }
+  .special-debug nav,
   .special-debug [role=navigation]:before {
     position: absolute !important;
     color: #f99; }
