@@ -4,7 +4,9 @@
   .special-debug [role=row] {
     display: table-row;
     border-collapse: collapse; }
-  .special-debug [role=gridcell] {
+  .special-debug [role=gridcell],
+  .special-debug [role=columnheader],
+  .special-debug [role=rowheader] {
     display: table-cell; }
   .special-debug [role=grid] {
     display: table;
@@ -73,9 +75,10 @@
     content: "h6"; }
   .special-debug th, .special-debug td, .special-debug *[role=gridcell] {
     border: 1px solid #aaa !important; }
-  .special-debug th {
+  .special-debug th, .special-debug [role=columnheader], .special-debug [role=rowheader] {
     background: #ddd !important; }
-  .special-debug ul > li {
+  .special-debug ul > li,
+  .special-debug [role=listitem] {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AMMEAALXBIOsgAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAuSURBVAjXXcu5CQAgAACx+AzjOoJbuJrghIKF2pjy4AIKqmNmNPQbUvTJGFhv2XaCBE7jBI7dAAAAAElFTkSuQmCC") no-repeat 0 5px !important;
     padding-left: 7px !important; }
   .special-debug b, .special-debug i {
